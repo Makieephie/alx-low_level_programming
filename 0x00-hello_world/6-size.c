@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return 0 (Success)
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -12,10 +12,10 @@ int main(void)
 	long long int longlongint;
 	float floatType;
 
-	printf("Size of char: %lu bytes\n", sizeof(charType));
-	printf("Size of int: %lu bytes\n", sizeof(intType));
-	printf("Size of long int: %lu bytes\n", sizeof(longint));
-	printf("Size of long long int: %lu bytes\n", sizeof(longlongint));
-	printf("Size of float: %lu bytes\n", sizeof(floatType));
+	printf("Size of char: %lu byte(s)\n", sizeof(charType));
+	printf("Size of int: %lu byte(s)\n", sizeof(intType));
+	printf("Size of long int: %lu byte(s)\n", sizeof(longint));
+	printf("Size of long long int: %lu byte(s)\n", sizeof(longlongint));
+	printf("Size of float: %lu byte(s)\n", sizeof(floatType));
 	return (0);
 }
