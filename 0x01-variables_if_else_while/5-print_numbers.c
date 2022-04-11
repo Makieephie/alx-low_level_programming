@@ -12,7 +12,7 @@ int main(void)
 	char s;
 
 	/* loop for numbers 0-9 */
-	for (s = '1'; s <= '9'; s++)
+	for (s = '0'; s <= '9'; s++)
 	{
 		putchar(s);
 	}
