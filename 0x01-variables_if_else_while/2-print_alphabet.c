@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 /* main - this program print alphabets in lower case */
 int main(void)
 {
@@ -7,8 +8,8 @@ int main(void)
 	char s;
 
 	/* looping over alphabets */
-	for (s = 'a'; s <= 'z'; s++)
-	{	
+	for(s = 'a'; s <= 'z'; s++)
+	{
 		putchar(s);
 	}
 	putchar('\n');
