@@ -11,7 +11,7 @@ int main(void)
 	for (s = 'a'; s <= 'z'; s++)
 	{	/* printing output */
 		putchar(s);
-	putchar();
+	putchar(\n);
 	/* return 0 if it is successful */
 	return (0);
 }
