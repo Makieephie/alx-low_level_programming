@@ -13,6 +13,7 @@ int main(void)
 	/* Declaring Variables */
 	int n;
 	int last_digit;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
       	/* Getting the last digit of n */
@@ -32,4 +33,4 @@ int main(void)
 	}
 	/* Return 0 if the program is successful */
 	return (0);
-}	
+}
