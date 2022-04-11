@@ -1,8 +1,11 @@
 #include <stdio.h>
-/* header file declaration */
+/*header file declaration */
 
 
-/* this program print alphabets in lower case */
+/*
+ * main - this program print alphabets in lower case 
+ *
+ * */
 int main(void)
 {
 	/* variable declarations */
