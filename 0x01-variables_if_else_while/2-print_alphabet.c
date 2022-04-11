@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-/** main - Entry point this program print alphabets in lower case 
- * Return: Always 0 (Success) 
- */
+/* main - this program print alphabets in lower case */
 int main(void)
 {
 	/* variable declarations */
@@ -14,6 +12,7 @@ int main(void)
 		putchar(s);
 	}
 	putchar('\n');
+
 	/* return 0 if it is successful */
 	return (0);
 }
