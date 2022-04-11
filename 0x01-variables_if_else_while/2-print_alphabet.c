@@ -1,6 +1,4 @@
 #include <stdio.h>
-/*header file declaration */
-
 /* main - Entry point this program print alphabets in lower case 
  * Return: Always 0 (Success) 
  */
