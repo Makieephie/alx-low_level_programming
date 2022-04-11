@@ -2,7 +2,8 @@
 /* adding header files */
 
 /**
- *  main - this program print alphabets in lowercase
+ *  main - this program print alphabets in lower case
+ *  and uppercase letters
  *
  *  Return: 0 if everything goes well
  */
@@ -11,8 +12,13 @@ int main(void)
 	/* variable declarations */
 	char s;
 
-	/* loop for lowercase letters */
+	/* first loop for lowercase letters */
 	for (s = 'a'; s <= 'z'; s++)
+	{
+		putchar(s);
+	}
+	/* second loop for capital letters */
+	for (s = 'A'; s <= 'Z'; s++)
 	{
 		putchar(s);
 	}
