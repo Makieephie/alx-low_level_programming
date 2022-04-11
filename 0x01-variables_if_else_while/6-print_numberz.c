@@ -14,7 +14,7 @@ int main(void)
 	/* loop for numbers 0-9 */
 	for (s = 0; s <= 9; s++)
 	{
-		putchar(s);
+		putchar(s + 'O');
 	}
 	putchar('\n');
 
