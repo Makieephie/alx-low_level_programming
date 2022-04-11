@@ -1,7 +1,12 @@
 #include <stdio.h>
+/* adding header files */
 
 
-/* main - this program print alphabets in lower case */
+/**
+ *  main - this program print alphabets in lower case 
+ *
+ *  Return: 0 if everything goes well
+ */
 int main(void)
 {
 	/* variable declarations */
