@@ -2,10 +2,10 @@
 /* adding header files */
 
 /**
- *  main - this program print lowercase 
- *  letter in reverse order
+ * main - this program print lowercase 
+ * letter in reverse order
  *
- *  Return: 0 if everything goes well
+ * Return: 0 if everything goes well
  */
 int main(void)
 {
