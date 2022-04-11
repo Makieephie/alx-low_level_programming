@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /** main - Entry point this program print alphabets in lower case 
  * Return: Always 0 (Success) 
  */
@@ -10,7 +11,6 @@ int main(void)
 	/* looping over alphabets */
 	for (s = 'a'; s <= 'z'; s++)
 	{	
-		/* printing output */
 		putchar(s);
 	}
 	putchar('\n');
