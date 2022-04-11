@@ -10,6 +10,8 @@ int main(void)
 {
 	/* variable declarations */
 	int s;
+	int i;
+	int j;
 
 	/* loop for numbers 0-9 */
 	for (s = 0; s <= 9; s++)
@@ -17,9 +19,9 @@ int main(void)
 		putchar(s + '0');
 	}
 	/* second loop */
-	for (int i = 0; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		for (int j = 0; j <= 9; j++)
+		for (j = 0; j <= 9; j++)
 		{
 			putchar(i + j + '0');
 		}
