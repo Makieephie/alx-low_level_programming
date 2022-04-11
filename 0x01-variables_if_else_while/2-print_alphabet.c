@@ -7,10 +7,10 @@ int main(void)
 	/* variable declarations */
 	char s;
 
-	/* assigning values to the varaibles */
-	s = 'abcdefghijklmnopqrstuvwxyz';
-	/* printing ouput */
-	putchar(s);
+	/* looping over alphabets */
+	for (s = a; s <= z; s++)
+	{	/* printing output */
+		putchar(s);
 	putchar("\n");
 	/* return 0 if it is successful */
 	return (0);
