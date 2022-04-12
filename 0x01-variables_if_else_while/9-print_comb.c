@@ -10,14 +10,15 @@ int main(void)
 {
 	/* variable declarations */
 	int i;
-	int j;
 
 	/* loop for numbers 0-9 */
 	for (i = 0; i <= 9; i++)
 	{
-		for (j = 0; j <= 9; j++)
+		putchar(i + '0');
+		if (i < 9)
 		{
-			putchar(j + "%i",i);
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
