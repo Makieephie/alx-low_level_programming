@@ -2,7 +2,7 @@
 /* adding header files */
 
 /**
- *  print_alphabet - this program print _putchar
+ *  print_alphabet - this program print lowercase alphabets
  */
 void print_alphabet(void)
 {
