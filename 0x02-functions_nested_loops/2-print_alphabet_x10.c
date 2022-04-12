@@ -12,11 +12,12 @@ void print_alphabet_x10(void)
 	/* loop through the letters */
 	while (n < 10)
 	{
-		char c;
+		/* second loop for printing */
+		char s;
 
-		for (c = 'a'; c <= 'z'; c++)
+		for (s = 'a'; s <= 'z'; s++)
 		{
-			_putchar(c);
+			_putchar(s);
 		}
 		n++;
 	}
