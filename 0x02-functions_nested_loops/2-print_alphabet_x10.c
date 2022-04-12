@@ -7,10 +7,10 @@
 void print_alphabet_x10(void)
 {
 	/* variable declarations */
-	int n = 10;
+	int n;
 
 	/* loop through the letters */
-	while (n < 10)
+	for (n = 0; n < 10; n++)
 	{
 		/* second loop for printing */
 		char s;
@@ -19,7 +19,6 @@ void print_alphabet_x10(void)
 		{
 			_putchar(s);
 		}
-		n++;
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
