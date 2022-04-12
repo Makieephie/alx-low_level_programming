@@ -1,6 +1,5 @@
 #include <unistd.h>
 
-int _putchar(char c);
 /**
  * _putchar - write the character c to stdio
  *
