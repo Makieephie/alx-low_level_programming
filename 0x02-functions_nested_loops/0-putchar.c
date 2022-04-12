@@ -1,5 +1,6 @@
 #include "main.h"
 /* adding header files */
+int _putchar(char c);
 
 /**
  *  main - this program print _putchar
