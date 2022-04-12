@@ -15,6 +15,7 @@ int main(void)
 	/* loop through the letters */
 	while (i < 8)
 	{
+		/* printint the output */
 		_putchar(s[i]);
 		i++;
 	}
