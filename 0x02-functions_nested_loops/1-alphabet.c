@@ -3,8 +3,6 @@
 
 /**
  *  print_alphabet - this program print _putchar
- *
- *  Return: 0 if everything goes well
  */
 void print_alphabet(void)
 {
@@ -17,7 +15,4 @@ void print_alphabet(void)
 		_putchar(s);
 	}
 	_putchar('\n');
-
-	/* return 0 if it is successful */
-	return (0);
 }
