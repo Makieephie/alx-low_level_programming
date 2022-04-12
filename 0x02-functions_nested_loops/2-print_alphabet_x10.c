@@ -2,7 +2,7 @@
 /* adding header files */
 
 /**
- *  print_alphabet - this program print lowercase alphabets 10 times
+ *  print_alphabet_x10 - this program print lowercase alphabets 10 times
  */
 void print_alphabet_x10(void)
 {
