@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * jack_bauer - Print every minute of the day from 0:00 to 23:59
  *
  * Return: (void)
