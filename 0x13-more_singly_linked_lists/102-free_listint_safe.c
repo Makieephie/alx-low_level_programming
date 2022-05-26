@@ -8,7 +8,7 @@
  * Return: the size of the list
  */
 
-size_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **h)}
 {
 	listint_t *tmp, *actual;
 	size_t i;
@@ -34,6 +34,7 @@ size_t free_listint_safe(listint_t **h)
 		}
 
 	}
+
 	*h = NULL;
 
 	return (i);
