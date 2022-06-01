@@ -6,6 +6,7 @@
  * @av: array of arguments
  * Return: Always 0.
  */
+
 int main(int ac, char **av)
 {
 	int file_from, file_to;
